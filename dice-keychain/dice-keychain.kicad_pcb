@@ -96,7 +96,7 @@
 	(footprint "Logo:logo-fritzenlab-pequeno"
 		(layer "F.Cu")
 		(uuid "16ffb23e-db51-4a86-b105-58f44f9b8521")
-		(at 111.4 65.7)
+		(at 111.3 65.7)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -837,7 +837,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
-			(at 0.9 1.9 0)
+			(at 1 2.2 0)
 			(layer "F.SilkS")
 			(uuid "b6fcba55-f136-44cd-a4f8-3fefd74ea0fd")
 			(effects
@@ -7250,6 +7250,42 @@
 				(xy 107.618536 88.630698) (xy 107.679857 88.597215) (xy 107.69231 88.595163) (xy 107.779255 88.585368)
 				(xy 107.949522 88.525789) (xy 108.102262 88.429816) (xy 108.102262 88.429815) (xy 108.108158 88.426111)
 				(xy 108.109602 88.428409) (xy 108.162849 88.406659)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "2392cd15-db75-4d2c-924d-122caee8890c")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 105.085 61.44) (xy 101.4 61.4) (xy 101.4 79.6) (xy 105.4 79.6) (xy 105.4 71.7) (xy 117.5 71.7)
+				(xy 117.5 79.7) (xy 121.3 79.7) (xy 121.3 61.4) (xy 117.6 61.4) (xy 117.6 69.2) (xy 105 69.2)
+			)
+		)
+		(filled_polygon
+			(layer "F.SilkS")
+			(island)
+			(pts
+				(xy 121.243039 61.419685) (xy 121.288794 61.472489) (xy 121.3 61.524) (xy 121.3 79.576) (xy 121.280315 79.643039)
+				(xy 121.227511 79.688794) (xy 121.176 79.7) (xy 117.624 79.7) (xy 117.556961 79.680315) (xy 117.511206 79.627511)
+				(xy 117.5 79.576) (xy 117.5 71.7) (xy 105.4 71.7) (xy 105.4 79.476) (xy 105.380315 79.543039) (xy 105.327511 79.588794)
+				(xy 105.276 79.6) (xy 101.524 79.6) (xy 101.456961 79.580315) (xy 101.411206 79.527511) (xy 101.4 79.476)
+				(xy 101.4 61.525353) (xy 101.419685 61.458314) (xy 101.472489 61.412559) (xy 101.525346 61.40136)
+				(xy 104.960994 61.438653) (xy 105.027816 61.459064) (xy 105.072995 61.512362) (xy 105.083641 61.564004)
+				(xy 105 69.2) (xy 117.6 69.2) (xy 117.6 61.524) (xy 117.619685 61.456961) (xy 117.672489 61.411206)
+				(xy 117.724 61.4) (xy 121.176 61.4)
 			)
 		)
 	)
