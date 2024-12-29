@@ -19,6 +19,7 @@ int entered = 0;
 void setup() {
   
   //Serial.begin(9600);
+  
 }
 
 void loop() {
@@ -122,7 +123,7 @@ void loop() {
     if(sortedanumber == 0){
       randomSeed(analogRead(A2));
       sortnumber = random(1, 7);
-      //sortedanumber = 1;
+      sortedanumber = 1;
     }
     
     if(sortnumber == 1){
@@ -177,7 +178,7 @@ void loop() {
     }else{
 
     }
-    //entered = 1;
+    entered = 1;
       
     
     
